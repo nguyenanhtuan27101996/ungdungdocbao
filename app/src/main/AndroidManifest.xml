@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tuanpc.appnews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconnews"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconnews"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Views.ReadNewsScreen" />
+        <activity android:name=".ThoiSuActivity" />
+        <activity android:name=".TheGioiActivity" />
+        <activity android:name=".KinhDoanhActivity" />
+        <activity android:name=".StartupActivity" />
+        <activity android:name=".GiaiTriActivity" />
+        <activity android:name=".TheThaoActivity" />
+        <activity android:name=".PhapLuatActivity" />
+        <activity android:name=".GiaoDucActivity" />
+        <activity android:name=".SucKhoeActivity" />
+        <activity android:name=".GiaDinhActivity" />
+        <activity android:name=".DuLichActivity" />
+        <activity android:name=".KhoaHocActivity" />
+        <activity android:name=".SoHoaActivity" />
+        <activity android:name=".XeActivity" />
+        <activity android:name=".CongDongActivity" />
+        <activity android:name=".TamSuActivity" />
+        <activity android:name=".CuoiActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
